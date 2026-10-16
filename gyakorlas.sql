@@ -32,6 +32,10 @@ SELECT COUNT(*) ,job_title FROM employees
 GROUP BY job_title;
 
 
+SELECT COUNT(*) AS db ,job_title FROM employees
+GROUP BY job_title
+ORDER BY db;    
+
 
 
 
